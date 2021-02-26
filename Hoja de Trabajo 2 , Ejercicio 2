@@ -1,0 +1,9 @@
+numero = int(input("Escribe un número entero positivo mayor que 2: "))
+for i in range(2, n):
+    if numero % i == 0:
+        break
+if (i + 1)  == n:
+    print(str(numero) + " es primo")
+else: 
+    print(str(numero) + " no es primo")
+   
