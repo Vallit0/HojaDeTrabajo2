@@ -1,0 +1,8 @@
+
+numero = int(input("Introduzca la altura del triángulo: "))
+
+for i in range(n):#Delimitación del rango para el triángulo
+    for j in range (i+1):
+        print("*", end="")
+    print("")
+    
